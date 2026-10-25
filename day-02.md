@@ -42,7 +42,7 @@
     ZeroDivisionError: division by zero
 
 
-- What I didn't understand: So far, Nothing
+- What I didn't understand: Rebuilt from memory cleanly in 6 minutes; no stalls.
 - Guided resource: Watched videos on py4e.com, Completed lessons 1-3. Spent roughly 2 hours on it
 - A.I Log(s): No A.I usage
 - Rewritten all codes from memory
@@ -52,6 +52,6 @@
 
 | # | Acceptance Criterion | Status | Evidence |
 |---|---------------------|:------:|----------|
-| 1 | schedule.md public with all four windows and both tripwires | ✅ | https://github.com/ureksolos/learning-log/blob/main/schedule..md |
+| 1 | schedule.md public with all four windows and both tripwires | ✅ | https://github.com/ureksolos/learning-log/blob/main/schedule.md |
 | 2 |  main.txt and 1/0 outputs pasted | ✅ | above |
 | 3 | 02_tip_calculator.py passes the 100/15/3 → 15.00 / 115.00 / 38.33 test | ✅ | output is above |
