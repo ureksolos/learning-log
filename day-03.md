@@ -8,6 +8,9 @@
 - **AI Log:** No AI assistance
 - **Didn't understand:** Rebuilt 04_guessing_game.py from memory. Clean in 8-9 minutes
 - **Confirmed and added missing comments**
+- **Design Choice:** Invalid input deliberately consumes an attempt — chosen for input discipline.
+- **Didn't Understand:** for-loops implementation for 04_guessing_game.py. Resolved
+
 
 ---
 
@@ -48,4 +51,35 @@ Too low
 Out of guesses. Number is 69
 ```
 
+### Output 3
+```text
+Enter number: 50
+Too low
+Enter number: 75
+Too low
+Enter number: 88
+Too high
+Enter number: 81
+Too high
+Enter number: 78
+Correct in 5 guesses.
+```
 
+### Output 4
+```text
+Enter number: go
+Invalid input: Please enter integer values!
+Enter number: 50
+Too high
+Enter number: 25
+Too low
+Enter number: 16
+Too low
+Enter number: 27
+Too low
+Enter number: 30
+Too low
+Enter number: 32
+Too low
+Out of guesses. Number is 35
+```
