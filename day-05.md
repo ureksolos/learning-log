@@ -119,3 +119,129 @@ sum: 30.00
 3) Total
 4) Quit
 Choose an option(1 - 4): 4
+
+
+### Output 3: v1
+
+python 06_expense_tracker.py   
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 2
+No expenses yet.
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 3
+No expenses yet.
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 1
+Enter Description: Food
+Enter Amount: 20
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 1
+Enter Description: Bills
+Enter Amount: 30
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 3
+sum: 50.00
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 2
+1. Food - 20.00
+2. Bills - 30.00
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 4
+
+
+### Output 4: v2
+
+python 08_expense_tracker_v2.py
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 2
+No expenses yet.
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 3
+No expenses yet.
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 1
+Enter Description: Food
+Enter Amount: 20
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 1
+Enter Description: Bills
+Enter Amount: 30
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 3
+sum: 50.00
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 2
+1. Food - 20.00
+2. Bills - 30.00
+
+--- Expense Tracker Menu ---
+1) Add
+2) List
+3) Total
+4) Quit
+Choose an option (1-4): 4
