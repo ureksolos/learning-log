@@ -98,12 +98,13 @@ Choose an option (1-4): 4
 
 ## Test 3 Output(s):
 
-file, 'expenses.json' does not exist, starting with fresh list.
+python 10_expense_tracker_v3.py
+Warning: 'expenses.json' contains invalid JSON or is corrupted. Starting with a fresh list
 
 --- Expense Tracker Menu ---
 1) Add
 2) List
 3) Total
 4) Quit
-Choose an option (1-4): 
-
+Choose an option (1-4): 2
+No expenses yet
