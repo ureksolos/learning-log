@@ -60,6 +60,7 @@ Choose an option (1-4): 4
 --- Expense Tracker Menu ---
 1) Add
 2) List
+3) Total
 4) Quit
 Choose an option (1-4): 2
 No expenses yet.
