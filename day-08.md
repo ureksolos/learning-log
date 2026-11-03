@@ -19,10 +19,10 @@
 4) Delete book
 5) Quit
 Choose an option (1-5): 1
-Enter Book Title: Lord of the mysteries
-Enter Author ID: 101
-Enter Year: 2018
-Enter Author's name: Cuttlefish that loves diving
+Enter Book Title: Brain
+Enter Year: asdf
+Non-numeric year detected!
+Enter Author's name: Tim Cook
 
 --- Books Menu ---
 1) Add book
@@ -31,10 +31,9 @@ Enter Author's name: Cuttlefish that loves diving
 4) Delete book
 5) Quit
 Choose an option (1-5): 1
-Enter Book Title: Shura's Wrath
-Enter Author ID: 121
-Enter Year: 2012
-Enter Author's name: Mars Gravity
+Enter Book Title: Renegade Immortal
+Enter Year: 2009
+Enter Author's name: Er Gen
 
 --- Books Menu ---
 1) Add book
@@ -43,7 +42,7 @@ Enter Author's name: Mars Gravity
 4) Delete book
 5) Quit
 Choose an option (1-5): 5
-PS C:\Users\succe\Documents\python-practice> python 13_books.py
+PS C:\Users\succe\Documents\python-practice> python books_13.py
 
 --- Books Menu ---
 1) Add book
@@ -52,8 +51,8 @@ PS C:\Users\succe\Documents\python-practice> python 13_books.py
 4) Delete book
 5) Quit
 Choose an option (1-5): 2
-Lord of the mysteries — Cuttlefish that loves diving (2018)
-Shura's Wrath — Mars Gravity (2012)
+Brain — Tim Cook
+Renegade Immortal — Er Gen (2009)
 
 ### OUTPUT 2: FIND BY AUTHOR (1 BOOK)
 
@@ -136,3 +135,24 @@ Enter Author's name: Er Gen
 Choose an option (1-5): 2
 Lord of the mysteries — Cuttlefish that loves diving (2018)
 Renegade Immortal — Er Gen
+
+### OUTPUT 7: test_format_book.py pytest output
+
+==================================================================== test session starts ====================================================================
+platform win32 -- Python 3.15.1, pytest-9.2.0, pluggy-1.7.0
+rootdir: C:\Users\succe\Documents\python-practice
+collected 2 items                                                                                                                                            
+
+test_format_book.py ..                                                                                                                                 [100%]
+
+===================================================================== 2 passed in 0.18s =====================================================================
+
+### test_format_book.py Code:
+
+from books_13 import format_book
+
+def test_format_book_no_year():
+    assert format_book("Brain", "Tim Cook", None) == "Brain — Tim Cook"
+
+def test_format_book_with_year():
+    assert format_book("Brain", "Tim Cook", 2024) == "Brain — Tim Cook (2024)"
